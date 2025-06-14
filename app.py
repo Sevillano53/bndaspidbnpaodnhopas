@@ -23,7 +23,7 @@ CSV_HEADERS = ['id', 'name', 'serial_number', 'provider', 'buy_price', 'sell_pri
 
 # Login credentials
 USERNAME = 'mustapha'
-PASSWORD_HASH = hashlib.sha256('Mst@Ph@2025!Str0ng#P@ssw0rd'.encode()).hexdigest()  # Strong password
+PASSWORD_HASH = hashlib.sha256('kingkong2025'.encode()).hexdigest()  # Strong password
 
 def login_required(f):
     """Decorator to require login for protected routes"""
